@@ -11,6 +11,9 @@ module.exports = async ({ getNamedAccounts }) => {
     { firstAccount }
   );
   
+  // 调用迁移函数初始化新增的状态变量
+  await v2.migrateToV2();
+  
   console.log("Upgraded to V2 at:", v2.address);
 };
 

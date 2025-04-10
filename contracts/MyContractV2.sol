@@ -1,4 +1,3 @@
-
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
@@ -6,11 +5,18 @@ import "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
 
 contract MyContractV2 is Initializable {
     uint public value;
-    address public owner; // 新增变量
+    address public owner;
+    bool private initializedV2;
     
     function initialize(uint _initValue) public initializer {
         value = _initValue;
-        owner = msg.sender; // V2 新增初始化逻辑
+    }
+   
+   //添加迁移函数
+    function migrateToV2() public {
+        require(!initializedV2, "Already migrated");
+        owner = msg.sender;
+        initializedV2 = true;
     }
 
     function setValue(uint _newValue) public {
