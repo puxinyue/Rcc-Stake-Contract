@@ -1,0 +1,195 @@
+{
+  "manifestVersion": "3.2",
+  "proxies": [
+    {
+      "address": "0x7865EF3DfAc724983aCD56EE77D273e33ec63Fad",
+      "txHash": "0x4a4ebeec565b81697c910ea2f59d358e819011b5d300f67e988247e77eac842e",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x148938B48221DD113A0DCFbf8dD0408832445bE6",
+      "txHash": "0x30f0afe0c9181ddd57f8967ce56ec2c788af7479c87549603cf34428174f9950",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x3313aAFf271F98003B9c46F6f7eE20Bb9Ea7fD4B",
+      "txHash": "0xe365729c81a0e67fcfbb04330e0a3fd931a3bb06adbbc278b84e554951038e1a",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xb4224239959A9b6d0Eec4C2e9587A4C569f62dCe",
+      "txHash": "0x31df68ba5fb5dab4cd92aa4b88919b29dcc6af7377540143681bf271faa1e6bb",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x5a33d4a31Afdb2b0172929fBBB275ccF3EE885dd",
+      "txHash": "0xacc2bbf669af6253031f40469f10ecbb7b503bb3c712e94198bfbf5db440a428",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x13EE7b3A6B03FbB385C4739b6FFBacfa9Da25bbe",
+      "txHash": "0x3daee680b4432eae4014e42c1020192e57232477dfabf6e2f47a6acc3776e11c",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "8188db40b4287901972549fdb9aefffc7f9fce30735a7f3767d55e64bf49cc87": {
+      "address": "0x6A9d1de43507293316F479bb26aaC539F3a81911",
+      "txHash": "0x913c6ae7910d218d6d6cbe8bcffd9d084ee4d4067ed9b3948187d9dea61876d0",
+      "layout": {
+        "solcVersion": "0.8.28",
+        "storage": [
+          {
+            "label": "value",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "MyContractV1",
+            "src": "contracts\\MyContractV1.sol:7"
+          }
+        ],
+        "types": {
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_struct(InitializableStorage)7_storage": {
+            "label": "struct Initializable.InitializableStorage",
+            "members": [
+              {
+                "label": "_initialized",
+                "type": "t_uint64",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_initializing",
+                "type": "t_bool",
+                "offset": 8,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:69",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:73",
+              "offset": 8,
+              "slot": "0"
+            }
+          ]
+        }
+      }
+    },
+    "3e8040f640978f14429517178f7bfea66dca5d864ce7e592d99afcb6b80c908a": {
+      "address": "0xE2147D4EbeE49B5a6ad3Ed1a26ee379946ef5818",
+      "txHash": "0x70858667206b3eb7def062ea06a180cb3ae1fd2a7e85aa2141743b70e3e70fc0",
+      "layout": {
+        "solcVersion": "0.8.28",
+        "storage": [
+          {
+            "label": "value",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "MyContractV2",
+            "src": "contracts\\MyContractV2.sol:7"
+          },
+          {
+            "label": "owner",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_address",
+            "contract": "MyContractV2",
+            "src": "contracts\\MyContractV2.sol:8"
+          },
+          {
+            "label": "initializedV2",
+            "offset": 20,
+            "slot": "1",
+            "type": "t_bool",
+            "contract": "MyContractV2",
+            "src": "contracts\\MyContractV2.sol:9"
+          }
+        ],
+        "types": {
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_struct(InitializableStorage)7_storage": {
+            "label": "struct Initializable.InitializableStorage",
+            "members": [
+              {
+                "label": "_initialized",
+                "type": "t_uint64",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_initializing",
+                "type": "t_bool",
+                "offset": 8,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:69",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:73",
+              "offset": 8,
+              "slot": "0"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "address": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+  "abi": [
+    {
+      "type": "error",
+      "inputs": [],
+      "name": "InvalidInitialization"
+    },
+    {
+      "type": "error",
+      "inputs": [],
+      "name": "NotInitializing"
+    },
+    {
+      "type": "event",
+      "inputs": [
+        {
+          "name": "version",
+          "type": "uint64",
+          "baseType": "uint64",
+          "indexed": false,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
+      ],
+      "name": "Initialized",
+      "anonymous": false
+    },
+    {
+      "type": "function",
+      "inputs": [
+        {
+          "name": "_initValue",
+          "type": "uint256",
+          "baseType": "uint256",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
+      ],
+      "name": "initialize",
+      "constant": false,
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "payable": false,
+      "gas": null
+    },
+    {
+      "type": "function",
+      "inputs": [
+        {
+          "name": "_newValue",
+          "type": "uint256",
+          "baseType": "uint256",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
+      ],
+      "name": "setValue",
+      "constant": false,
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "payable": false,
+      "gas": null
+    },
+    {
+      "type": "function",
+      "inputs": [],
+      "name": "value",
+      "constant": true,
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "baseType": "uint256",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
+      ],
+      "stateMutability": "view",
+      "payable": false,
+      "gas": null
+    }
+  ],
+  "numDeployments": 1
+}

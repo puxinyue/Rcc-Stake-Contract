@@ -1,0 +1,118 @@
+{
+  "address": "0x13EE7b3A6B03FbB385C4739b6FFBacfa9Da25bbe",
+  "abi": [
+    {
+      "type": "error",
+      "inputs": [],
+      "name": "InvalidInitialization"
+    },
+    {
+      "type": "error",
+      "inputs": [],
+      "name": "NotInitializing"
+    },
+    {
+      "type": "event",
+      "inputs": [
+        {
+          "name": "version",
+          "type": "uint64",
+          "baseType": "uint64",
+          "indexed": false,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
+      ],
+      "name": "Initialized",
+      "anonymous": false
+    },
+    {
+      "type": "function",
+      "inputs": [
+        {
+          "name": "_initValue",
+          "type": "uint256",
+          "baseType": "uint256",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
+      ],
+      "name": "initialize",
+      "constant": false,
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "payable": false,
+      "gas": null
+    },
+    {
+      "type": "function",
+      "inputs": [],
+      "name": "migrateToV2",
+      "constant": false,
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "payable": false,
+      "gas": null
+    },
+    {
+      "type": "function",
+      "inputs": [],
+      "name": "owner",
+      "constant": true,
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "baseType": "address",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
+      ],
+      "stateMutability": "view",
+      "payable": false,
+      "gas": null
+    },
+    {
+      "type": "function",
+      "inputs": [
+        {
+          "name": "_newValue",
+          "type": "uint256",
+          "baseType": "uint256",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
+      ],
+      "name": "setValue",
+      "constant": false,
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "payable": false,
+      "gas": null
+    },
+    {
+      "type": "function",
+      "inputs": [],
+      "name": "value",
+      "constant": true,
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "baseType": "uint256",
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null
+        }
+      ],
+      "stateMutability": "view",
+      "payable": false,
+      "gas": null
+    }
+  ],
+  "numDeployments": 2
+}
