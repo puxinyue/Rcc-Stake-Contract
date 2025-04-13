@@ -14,7 +14,7 @@ module.exports = {
     // },
     ganache: {
       url: "http://127.0.0.1:7545", // Ganache 默认 RPC URL
-      accounts: ["0x6cfc8ac75e0c207ebd495b10f1b357fbf470dcd75a88f969f42b3480bb09dfe3"] // 填入本地链账户私钥
+      accounts: ["0x8b3f8aab5691273868ec6162794d6e6b1d85084127c61190a27c75a9da5ff4cb"] // 填入本地链账户私钥
     }
   },
   // etherscan: {

@@ -30,12 +30,17 @@
       "address": "0x13EE7b3A6B03FbB385C4739b6FFBacfa9Da25bbe",
       "txHash": "0x3daee680b4432eae4014e42c1020192e57232477dfabf6e2f47a6acc3776e11c",
       "kind": "transparent"
+    },
+    {
+      "address": "0x594d6fe5Fc35688954eDA2B136af93B4Ae90f227",
+      "txHash": "0x564dd822c1f19affe48e6ed3326e722f83b04ae264331d83a16ec3f50d185c2e",
+      "kind": "transparent"
     }
   ],
   "impls": {
     "8188db40b4287901972549fdb9aefffc7f9fce30735a7f3767d55e64bf49cc87": {
-      "address": "0x6A9d1de43507293316F479bb26aaC539F3a81911",
-      "txHash": "0x913c6ae7910d218d6d6cbe8bcffd9d084ee4d4067ed9b3948187d9dea61876d0",
+      "address": "0xb088e131a6AE31b85BB2812b85D7f7B7013aeC70",
+      "txHash": "0xe0478d48a827bcd2fddb92ed263176776062e785f6d254f9c0d0299a2f0ea2f1",
       "layout": {
         "solcVersion": "0.8.28",
         "storage": [
@@ -45,7 +50,7 @@
             "slot": "0",
             "type": "t_uint256",
             "contract": "MyContractV1",
-            "src": "contracts\\MyContractV1.sol:7"
+            "src": "contracts\\MyContractV1.sol:8"
           }
         ],
         "types": {
@@ -103,8 +108,8 @@
       }
     },
     "3e8040f640978f14429517178f7bfea66dca5d864ce7e592d99afcb6b80c908a": {
-      "address": "0xE2147D4EbeE49B5a6ad3Ed1a26ee379946ef5818",
-      "txHash": "0x70858667206b3eb7def062ea06a180cb3ae1fd2a7e85aa2141743b70e3e70fc0",
+      "address": "0xEB7e4A8AE021C285cC004e2276a79b7509e4c8fC",
+      "txHash": "0x1a9dafb02787f62b53631b896a9280f01a325ea4e85ab334ee3704dcdbf64de6",
       "layout": {
         "solcVersion": "0.8.28",
         "storage": [
