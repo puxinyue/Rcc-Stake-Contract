@@ -87,6 +87,7 @@ contract RccStake is Initializable, UUPSUpgradeable, AccessControlUpgradeable, P
      RCC = _rcc;
     _grantRole(DEFAULT_ADMIN_ROLE, msg.sender);
     _grantRole(ADMIN_ROLE, msg.sender);
+    _grantRole(UPGRADE_ROLE, msg.sender);
     setRCC(_rcc);
     startBlock = _startBlock;
     endBlock = _endBlock;
